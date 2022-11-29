@@ -15,4 +15,4 @@ echo "$str2 <br>";
 
 // Multiline text and reserve html tags
 
-// https://www.php.net/manual/en/ref.strings.php
+// https://www.php.net/manual/en/ref.strings.php😊🖲🖱🖱🖱🍔
