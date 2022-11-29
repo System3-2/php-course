@@ -1,24 +1,37 @@
 <?php
 // Magic constants
-echo __DIR__.'<br>';
-echo __FILE__.'<br>';
+// echo __DIR__.'<br>';
+// echo __FILE__.'<br>';
 
 
-echo __LINE__.'<br>';
+// echo __LINE__.'<br>';
 
 // mkdir('test-lol');
 // Create directory
 
 // Rename directory
-rename('test-lol', 'test');
+// rename('test-lol', 'test');
 // Delete directory
-rmdir('test');
+// rmdir('test');
 // Read files and folders inside directory
+// echo file_get_contents('lorem.txt');
+
+// $files = scandir('../../../../../');
+// echo '<pre>';
+// var_dump($files);
+// echo '</pre>';
 
 // file_get_contents, file_put_contents
-
+// echo file_get_contents('lorem.txt');
+// file_put_contents('sample.txt', 'some content');
 // file_get_contents from URL
+$usersJSON = file_get_contents('https://jsonplaceholder.typicode.com/users');
+// echo $usersJSON;
+$users = json_decode($usersJSON, true);
 
+echo '<pre>';
+var_dump($users);
+echo '</pre>';
 // https://www.php.net/manual/en/book.filesystem.php
 // file_exists
 // is_dir
