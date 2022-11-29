@@ -1,6 +1,11 @@
 <?php
 
 // Create simple string
+$str = 'Muyiwa';
+$str2 = "Muyiwa";
+$noun = "Hello";
+echo "$str $noun. <br>";
+echo "$str2 <br>";
 
 // String concatenation
 
